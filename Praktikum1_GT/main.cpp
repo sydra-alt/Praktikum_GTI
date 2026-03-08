@@ -5,10 +5,40 @@
 //  Created by Syahrafi Ahmad Pradika on 05/03/26.
 //
 
-#include <iostream>
+#include <GLUT/glut.h>
+#include "AIO.h"
+/*
+ int main(int argc, char** argv){
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return EXIT_SUCCESS;
-}
+     glutInit(&argc, argv);
+     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+     glutInitWindowSize(700,500);
+     glutCreateWindow("Gabungan Primitif OpenGL");
+
+     init();
+
+     glutDisplayFunc(display);
+
+     glutMainLoop();
+     return 0;
+ }
+ */
+
+/* ---Titik----
+ int main(int argc, char** argv){
+
+     glutInit(&argc, argv);
+     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+     glutInitWindowSize(600,400);
+     glutCreateWindow("OpenGL Test");
+
+     init();
+
+     glutDisplayFunc(display);
+
+     glutMainLoop();
+     return 0;
+ }
+*/
+
+

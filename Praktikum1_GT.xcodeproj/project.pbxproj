@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		95CFBF272F59215800012F26 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CFBF262F59215800012F26 /* GLUT.framework */; };
+		95CFBF292F59215F00012F26 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CFBF282F59215F00012F26 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		95CFBF182F59211300012F26 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		95CFBF1A2F59211300012F26 /* Praktikum1_GT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Praktikum1_GT; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CFBF262F59215800012F26 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		95CFBF282F59215F00012F26 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CFBF272F59215800012F26 /* GLUT.framework in Frameworks */,
+				95CFBF292F59215F00012F26 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				95CFBF1C2F59211300012F26 /* Praktikum1_GT */,
+				95CFBF252F59215800012F26 /* Frameworks */,
 				95CFBF1B2F59211300012F26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +65,15 @@
 				95CFBF1A2F59211300012F26 /* Praktikum1_GT */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		95CFBF252F59215800012F26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95CFBF282F59215F00012F26 /* OpenGL.framework */,
+				95CFBF262F59215800012F26 /* GLUT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
